@@ -34,13 +34,16 @@ Interactive features allow users to dig deeper into the data:
 - Explore Specific Months or just slide through dates  📆
 
 **📌 Results & Business Impact**
-
 This analysis enabled the identification of key performance trends, top-selling product categories, and customer purchasing patterns. The insights derived from the dashboard support data-driven decision-making across marketing, inventory planning, and operational strategy. By integrating SQL-based data processing with dynamic Power BI visualizations, the project delivers actionable intelligence to optimize sales and enhance overall business performance.
 
+## 📊 Dashboard Preview
+
+![Pizza Sales Dashboard](https://github.com/user-attachments/assets/aa724c8e-17f8-4447-8d61-65de478df1a9)
+
+## 🎬 Dashboard Demo
+
+📹 [Click here to view the Pizza Sales Dashboard Demo](https://github.com/user-attachments/assets/de7bcfc7-c004-4c5f-8859-d67568358bed)
 
 
 
-https://github.com/user-attachments/assets/de7bcfc7-c004-4c5f-8859-d67568358bed
 
-<img width="884" height="479" alt="Pizza Sales Dashboard" src="https://github.com/user-attachments/assets/aa724c8e-17f8-4447-8d61-65de478df1a9" />
-<img width="884" height="510" alt="Pizza Sales Dashboard 1 " src="https://github.com/user-attachments/assets/4d404624-abd7-43b3-abc0-67e720281aca" />

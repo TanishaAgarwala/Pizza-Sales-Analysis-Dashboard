@@ -1,13 +1,10 @@
 # Pizza-Sales-Analysis-Dashboard
-🍕 Pizza Sales Dashboard with Power BI ; PostgreSQL- A data analytics project that explores pizza business performance through interactive visualizations and SQL-powered insights. Dive into sales trends, uncover revenue metrics, and slice through data with intuitive filters.
+🍕 Pizza Sales Dashboard with Power BI , PostgreSQL-With a dataset of nearly 49,000 transactions, the dashboard offers statistically significant insights into customer behavior and sales performance. A data analytics project that explores pizza business performance through interactive visualizations and SQL-powered insights by . Dive into sales trends, uncover revenue metrics, and slice through data with intuitive filters.
 
-**🚀 Overview**
-Excited to share a slice of my recent data analytics journey—a comprehensive Pizza Sales Dashboard created using Power BI and PostgreSQL! 📈
-In a world where data is the secret ingredient to success, this dashboard serves up sizzling insights into pizza business operations.
 **🧠 Tools & Technologies**
 - Power BI for interactive data visualization
 - PostgreSQL for data storage and queries
-- Data cleaning, transformation, and KPI formulation done within Power BI and SQL environments
+- Data cleaning, transformation, and KPI formulation done within Power BI using Power Query Editor, DAX measures,Calculated columns and SQL environment.
   
 **📌 Key Performance Indicators (KPIs)**
 These KPIs offer a high-level view of pizza shop performance:
@@ -19,15 +16,31 @@ These KPIs offer a high-level view of pizza shop performance:
 - 
 **📈Trend Analysis**
 Understand customer behaviors and sales performance over time:
+In the 1st Dashboard we can see-
 - Daily Trends for Total Orders 📅
 - Monthly Trends for Total Orders 🗓️
+- Percentage of sales by pizza_category🗓️
+- Percentage of sales by pizza_size
+- Total pizzas sold by category
+  
+  In the 2nd Dashboard we can see-
+  -Top 5 pizzas sold by Revenue,Quantity and Orders
+  -Bottom 5 pizzas sold by Revenue,Quantity and Orders 
+  
 - 
 🔍**Filtering and  Slicing**
 Interactive features allow users to dig deeper into the data:
 - Filter by Pizza Types 🍕
-- Explore Specific Dates 📆
+- Explore Specific Months or just slide through dates  📆
 
 **📌 Results & Business Impact**
 
 This analysis enabled the identification of key performance trends, top-selling product categories, and customer purchasing patterns. The insights derived from the dashboard support data-driven decision-making across marketing, inventory planning, and operational strategy. By integrating SQL-based data processing with dynamic Power BI visualizations, the project delivers actionable intelligence to optimize sales and enhance overall business performance.
 
+
+
+
+https://github.com/user-attachments/assets/de7bcfc7-c004-4c5f-8859-d67568358bed
+
+<img width="884" height="479" alt="Pizza Sales Dashboard" src="https://github.com/user-attachments/assets/aa724c8e-17f8-4447-8d61-65de478df1a9" />
+<img width="884" height="510" alt="Pizza Sales Dashboard 1 " src="https://github.com/user-attachments/assets/4d404624-abd7-43b3-abc0-67e720281aca" />

@@ -1,4 +1,4 @@
-# Pizza-Sales-Analysis-Dashboard
+<img width="1121" height="493" alt="image" src="https://github.com/user-attachments/assets/718691f4-2459-4f29-820b-fd3f1db3ef73" /># Pizza-Sales-Analysis-Dashboard
 🍕 Pizza Sales Dashboard with Power BI , PostgreSQL-With a dataset of nearly 49,000 transactions, the dashboard offers statistically significant insights into customer behavior and sales performance. A data analytics project that explores pizza business performance through interactive visualizations and SQL-powered insights by . Dive into sales trends, uncover revenue metrics, and slice through data with intuitive filters.
 
 **🧠 Tools & Technologies**
@@ -13,7 +13,7 @@ These KPIs offer a high-level view of pizza shop performance:
 - Total Orders 📦
 - Average Pizzas Sold per Order 📊
 - Average Order Value 💲
-- 
+ 
 **📈Trend Analysis**
 Understand customer behaviors and sales performance over time:
 In the 1st Dashboard we can see-
@@ -23,7 +23,7 @@ In the 1st Dashboard we can see-
 - Percentage of sales by pizza_size
 - Total pizzas sold by category
   
-  In the 2nd Dashboard we can see-
+ In the 2nd Dashboard we can see-
   -Top 5 pizzas sold by Revenue,Quantity and Orders
   -Bottom 5 pizzas sold by Revenue,Quantity and Orders 
   
@@ -38,6 +38,7 @@ This analysis enabled the identification of key performance trends, top-selling 
 
 ## 📊 Dashboard Preview
 
+![Pizza Sales Dashboard 1](https://github.com/user-attachments/assets/4d404624-abd7-43b3-abc0-67e720281aca)
 ![Pizza Sales Dashboard](https://github.com/user-attachments/assets/aa724c8e-17f8-4447-8d61-65de478df1a9)
 
 ## 🎬 Dashboard Demo

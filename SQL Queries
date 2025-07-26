@@ -1,0 +1,63 @@
+Postgre SQL Code-
+
+---------KPI Requirements-------
+
+//Overlook of the Dataset
+
+SELECT * FROM pizza_orders
+LIMIT 5;
+
+---Q1)Total revenue
+
+SELECT SUM(total_price) AS Total_revenue FROM pizza_orders;
+
+---Q2)Average order value
+
+SELECT SUM(total_price)/ COUNT(DISTINCT Order_id) AS Average_order_value
+FROM pizza_orders;
+
+---Q3) Total Pizzas sold 
+SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_orders;
+
+---Q4)Total orders
+SELECT COUNT(DISTINCT Order_id) AS Total_Orders FROM pizza_orders;
+
+---Q5)Average pizzas per order 
+SELECT SUM(quantity) / COUNT(DISTINCT Order_id) AS Average_pizza_sold FROM pizza_orders;
+
+---Q6)Daily trend for Total orders
+SELECT TO_CHAR(order_date,'Day') as order_day,
+COUNT (DISTINCT Order_id) AS Total_orders
+FROM pizza_orders
+GROUP BY TO_CHAR(order_date,'Day')
+ORDER BY 
+    CASE TRIM(TO_CHAR(order_date,'Day'))
+	   WHEN 'Sunday' THEN 1
+	   WHEN 'Monday' THEN 2
+	   WHEN 'Tuesday'THEN 3
+	   WHEN 'Wednesday'THEN 4
+	   WHEN 'Thursday'THEN 5
+	   WHEN 'Friday'THEN 6
+	   WHEN 'Saturday'THEN 7
+	  end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

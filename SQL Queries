@@ -102,6 +102,18 @@ Group by pizza_name
 ORDER BY Total_orders
 LIMIT 5;
 
+---Q16)Number of customers each day
+SELECT order_date,COUNT(DISTINCT order_id) AS num_customers
+FROM pizza_orders
+GROUP BY order_date
+ORDER BY order_date;
+
+---Q17)Busiest hours
+SELECT EXTRACT(HOUR FROM order_time)::INT AS order_hour, COUNT(DISTINCT order_id) AS numof_orders
+FROM pizza_orders
+GROUP BY order_hour
+ORDER BY numof_orders DESC;
+
 
 
 
